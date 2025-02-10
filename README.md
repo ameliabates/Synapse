@@ -31,7 +31,7 @@ The Synapse is a web-based application designed to facilitate active reading and
 ## Installation and Setup
 
 ### Prerequisites
-- A local web server environment (e.g., XAMPP, WAMP, or MAMP).
+- A local web server environment (e.g., XAMPP).
 - A web browser (Google Chrome, Firefox, etc.).
 
 
@@ -47,7 +47,7 @@ The Synapse is a web-based application designed to facilitate active reading and
    - Set write permissions for the directory (on Windows, right-click > Properties > Security > Edit Permissions).
 
 4. **Start the Server**:
-   - Launch the server and navigate to the project using `http://localhost/project-folder/` in your web browser.
+   - Launch the server and navigate to the project using `http://localhost/Synapse/index.html` in your web browser.
 
 ---
 
@@ -102,21 +102,6 @@ The application uses `localStorage` to:
 
 ---
 
-## Troubleshooting
-
-### Common Issues
-1. **PDF Not Displaying**:
-   - Ensure the `uploads/` directory is writable.
-   - Check the file format. Only `.pdf` files are supported.
-
-2. **Flashcards Not Updating**:
-   - Verify that questions and answers are being saved in `localStorage`.
-
-3. **Redirect Errors**:
-   - Ensure that the `upload.php` script is correctly saving files and updating paths.
-
----
-
 ## Future Enhancements
 - Add support for other file formats (e.g., `.txt` or `.docx`).
 - Implement user authentication for saving and accessing personalized data.
@@ -124,12 +109,7 @@ The application uses `localStorage` to:
 
 ---
 
-## License
-This project is open-source and can be modified for personal or educational use.
-
----
-
 ## Acknowledgments
 - Created using HTML, CSS, JavaScript, and PHP.
-- Inspired by the SQ3R reading strategy for effective study habits.
+- Inspired by project from University of Oregon's CS443 User Interfaces taught by Professor Anthony Hornof.
 
